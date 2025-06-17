@@ -1,68 +1,68 @@
 export const Stack = () => {
   const frontEndStack = [
     {
-      img: "/public/front/nextjs-icon-dark-background.png",
+      img: "/front/nextjs-icon-dark-background.png",
       title: "Next",
     },
     {
-      img: "/public/front/react-js-img.png",
+      img: "/front/react-js-img.png",
       title: "React",
     },
     {
-      img: "/public/front/Vitejs-logo.svg.png",
+      img: "/front/Vitejs-logo.svg.png",
       title: "Vite",
     },
     {
-      img: "/public/front/Typescript_logo_2020.svg.png",
+      img: "/front/Typescript_logo_2020.svg.png",
       title: "TypeScript",
     },
     {
-      img: "/public/front/Unofficial_JavaScript_logo_2.svg.png",
+      img: "/front/Unofficial_JavaScript_logo_2.svg.png",
       title: "JavaScript",
     },
   ];
 
   const backEndStack = [
     {
-      img: "/public/back/python.png",
+      img: "/back/python.png",
       title: "Python",
     },
     {
-      img: "/public/back/nodejs-new-pantone-black.png",
+      img: "/back/nodejs-new-pantone-black.png",
       title: "Nodejs",
     },
     {
-      img: "/public/back/nestpng.png",
+      img: "/back/nestpng.png",
       title: "Nest",
     },
   ];
 
   const cloudStack = [
     {
-      img: "/public/cloud/Amazon_Web_Services_Logo.svg.png",
+      img: "/cloud/Amazon_Web_Services_Logo.svg.png",
       title: "AWS",
     },
     {
-      img: "/public/cloud/Microsoft_Azure.svg.png",
+      img: "/cloud/Microsoft_Azure.svg.png",
       title: "Azure",
     },
   ];
 
   const othersStack = [
     {
-      img: "/public/others/Postgresql_elephant.svg.png",
+      img: "/others/Postgresql_elephant.svg.png",
       title: "Postgresql",
     },
     {
-      img: "/public/others/touchicon-180.png",
+      img: "/others/touchicon-180.png",
       title: "Firebase",
     },
     {
-      img: "/public/others/Tailwind_CSS_Logo.svg.png",
+      img: "/others/Tailwind_CSS_Logo.svg.png",
       title: "Tailwind CSS",
     },
     {
-      img: "/public/others/1_doAg1_fMQKWFoub-6gwUiQ.png",
+      img: "/others/1_doAg1_fMQKWFoub-6gwUiQ.png",
       title: "MongoDB",
     },
   ];
