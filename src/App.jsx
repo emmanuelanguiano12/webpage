@@ -1,4 +1,5 @@
 import { About } from "./components/About"
+import { Certifications } from "./components/Certifications"
 import { Experience } from "./components/Experience"
 import { Presentation } from "./components/Presentation"
 import { Projects } from "./components/Projects"
@@ -11,6 +12,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
+      <Certifications />
     </div>
   )
 }

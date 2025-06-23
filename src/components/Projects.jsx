@@ -10,12 +10,12 @@ const projects = [
     live: "https://prompt-pilot-teal.vercel.app/",
   },
   {
-    title: "Calendar App (MERN)",
+    title: "Github issues app",
     description:
-      "A full-featured calendar with event management and authentication. Built using MongoDB, Express, React, and Node.js.",
-    tags: ["MongoDB", "Express", "React", "Node.js"],
-    github: "https://github.com/emmanuelanguiano12/Backend-MERN-Calendar-App",
-    live: "https://backend-mern-calendar-app-production.up.railway.app/",
+      "Web app built with React and Vite to display GitHub issues. Uses TanStack Query for data caching, pagination, and loading state management.",
+    tags: ["Tanstack Query", "Vite", "TypeScript"],
+    github: "https://github.com/emmanuelanguiano12/tanstack-query-github-issues",
+    live: "https://tanstack-query-github-issues.vercel.app/",
   },
   {
     title: "URL Shortener App",

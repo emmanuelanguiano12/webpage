@@ -65,6 +65,19 @@ export const Stack = () => {
       img: "/others/1_doAg1_fMQKWFoub-6gwUiQ.png",
       title: "MongoDB",
     },
+    {
+      img: "/others/docker.png",
+      title: "Docker",
+    },
+    {
+      img: "/others/tanstack.png",
+      title: "Tanstack Query",
+    },
+    {
+      img: "/others/github.png",
+      title: "Github",
+    },
+    // Docker, tanstack, github
   ];
 
   return (
