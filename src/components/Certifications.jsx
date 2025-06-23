@@ -1,5 +1,4 @@
 import { FaAws, FaMicrosoft } from "react-icons/fa";
-import { CarouselCustomNavigation } from "./CarouselCustomNavigation";
 
 const certifications = [
     {
