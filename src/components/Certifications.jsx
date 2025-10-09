@@ -6,7 +6,7 @@ const certifications = [
         issuer: "Amazon Web Services",
         icon: <FaAws className="text-indigo-600 text-3xl" />,
         date: "2024",
-        img: "/certifications/cloud.png",
+        img: "/certifications/cloud-pr.png",
     },
     {
         title: "AWS AI Practitioner (Early adopter)",

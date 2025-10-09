@@ -77,12 +77,6 @@ export const Experience = () => {
                   <strong>DynamoDB</strong>.
                 </span>
               </li>
-              <li className="flex items-start gap-2">
-                <FaArrowRight className="mt-1 text-[#1e3a8a]" />
-                <span>
-                  <strong>Differents frontend and backend projects:</strong>
-                </span>
-              </li>
             </ul>
           </div>
         </div>
