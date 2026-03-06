@@ -20,7 +20,7 @@ export const About = () => {
             {/* Imagen */}
             <div className="flex-1 flex justify-center">
             <img
-                src="/imagen-selfie.png"
+                src="/nueva-imagen-sel.jpg"
                 alt="Emmanuel selfie"
                 className="w-60 h-60 md:w-72 md:h-72 object-cover rounded-2xl shadow-xl border-4 border-white"
             />
