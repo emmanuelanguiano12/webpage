@@ -7,7 +7,7 @@ export const About = () => {
             <div className="flex-1">
             <h2 className="text-4xl font-bold mb-6 text-gray-800">About Me</h2>
             <p className="text-lg text-gray-800 leading-7 mb-4">
-                Hi! My name is <span className="font-bold">Emmanuel Anguiano</span>. I'm a Fullstack Developer, currently working at <span className="font-semibold">Vass Company</span> as an AI Developer.
+                Hi! My name is <span className="font-bold">Emmanuel Anguiano</span>. I'm a Fullstack Developer, currently working at <span className="font-semibold">Rappi Technologies</span> as an AI Developer.
             </p>
             <p className="text-lg text-gray-800 leading-7 mb-4">
                 I have a degree in <span className="font-semibold">Engineering of Internet Technologies</span> from the University of Colima. I'm experienced in <span className="text-red-600 font-bold">backend, AI, frontend development, and multicloud technologies</span>.

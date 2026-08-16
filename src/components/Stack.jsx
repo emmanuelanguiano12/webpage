@@ -80,6 +80,29 @@ export const Stack = () => {
     // Docker, tanstack, github
   ];
 
+  const aiStack = [
+    {
+      img: "/ai/ai-agent.png",
+      title: "AI Agents",
+    },
+    {
+      img: "/ai/ai-rag.png",
+      title: "RAG",
+    },
+    {
+      img: "/ai/ai-llm.png",
+      title: "LLMs",
+    },
+    {
+      img: "/ai/langchain.png",
+      title: "LangChain",
+    },
+    {
+      img: "/ai/langgraph.png",
+      title: "LangGraph",
+    },
+  ];
+
   return (
     <section id="stack" className="min-h-screen px-6 py-16">
       <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
@@ -101,6 +124,18 @@ export const Stack = () => {
       <h3 className="text-2xl font-semibold text-center mb-6 mt-12">Backend</h3>
       <div className="flex flex-wrap justify-center gap-8 max-w-5xl mx-auto">
         {backEndStack.map((stack) => (
+         <div key={stack.title} className="flex flex-col items-center space-y-2">
+          <div className="bg-white border border-gray-200 rounded-2xl shadow-md w-40 h-40 flex items-center justify-center hover:shadow-lg hover:scale-105 transition-all">
+            <img src={stack.img} alt={stack.title} className="w-20 h-20 md:w-28 md:h-28 object-contain" />
+          </div>
+          <span className="text-sm text-gray-700">{stack.title}</span>
+        </div>
+        ))}
+      </div>
+
+      <h3 className="text-2xl font-semibold text-center mb-6 mt-12">AI</h3>
+      <div className="flex flex-wrap justify-center gap-8 max-w-5xl mx-auto">
+        {aiStack.map((stack) => (
          <div key={stack.title} className="flex flex-col items-center space-y-2">
           <div className="bg-white border border-gray-200 rounded-2xl shadow-md w-40 h-40 flex items-center justify-center hover:shadow-lg hover:scale-105 transition-all">
             <img src={stack.img} alt={stack.title} className="w-20 h-20 md:w-28 md:h-28 object-contain" />
