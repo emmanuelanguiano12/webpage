@@ -2,14 +2,14 @@ import { FaAws, FaMicrosoft } from "react-icons/fa";
 
 const certifications = [
     {
-        title: "AWS Certified Cloud Practitioner",
+        title: "AWS Certified Cloud - Practitioner",
         issuer: "Amazon Web Services",
         icon: <FaAws className="text-indigo-600 text-3xl" />,
         date: "2024",
         img: "/certifications/cloud-pr.png",
     },
     {
-        title: "AWS AI Practitioner (Early adopter)",
+        title: "AWS Certified AI - Practitioner (Early Adopter)",
         issuer: "Amazon Web Services",
         icon: <FaAws className="text-orange-500 text-3xl" />,
         date: "2024",
@@ -35,6 +35,13 @@ const certifications = [
         icon: <FaMicrosoft className="text-blue-600 text-3xl" />,
         date: "2025",
         img: "/certifications/azure-ai.png",
+    },
+    {
+        title: "AWS Certified Generative AI Developer - Professional",
+        issuer: "Amazon Web Services",
+        icon: <FaAws className="text-yellow-500 text-3xl" />,
+        date: "2026",
+        img: "/certifications/gen-ai.png",
     },
 ];
 
